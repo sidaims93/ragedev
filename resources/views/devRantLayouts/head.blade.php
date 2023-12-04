@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-<title>@if(isset($pageMeta)) {{$pageMeta['name']}} @else RageDev @endif</title>
+<title>@if(isset($pageMeta)) {{$pageMeta['name']}} @else RageDev | devRant Clone @endif</title>
 <meta @if(isset($pageMeta)) content="{{$pageMeta['desc']}}" @else content="" @endif name="description">
 <meta @if(isset($pageMeta)) content="{{$pageMeta['keywords']}}" @else content="" @endif name="keywords">
 <meta name="csrf-token" content="{{ csrf_token() }}" />
